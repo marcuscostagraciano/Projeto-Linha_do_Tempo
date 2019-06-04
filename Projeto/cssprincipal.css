@@ -1,0 +1,18 @@
+.header {vertical-align: top;
+		 border-style: solid;}
+
+.logo {border-style: solid;
+ 	   position: relative;
+ 	   border-width: 2px;
+       }
+
+.logins {margin: auto;
+		 position: absolute;;
+		 right: 50px;
+		 top: 50px;}
+
+#login {border-left-style: solid;}
+
+#cadastro {border-left-style: solid;}
+
+a:hover {background-color: rgba(128, 128, 128, 0.300);}
