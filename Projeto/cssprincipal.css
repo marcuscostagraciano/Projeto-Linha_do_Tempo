@@ -3,16 +3,8 @@
 
 .logo {border-style: solid;
  	   position: relative;
- 	   border-width: 2px;
-       }
-
-.logins {margin: auto;
-		 position: absolute;;
-		 right: 50px;
-		 top: 50px;}
-
-#login {border-left-style: solid;}
-
-#cadastro {border-left-style: solid;}
+ 	   border-width: 2px;}
 
 a:hover {background-color: rgba(128, 128, 128, 0.300);}
+
+a {padding: 2px;}
