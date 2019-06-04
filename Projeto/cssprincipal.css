@@ -1,10 +1,15 @@
-.header {vertical-align: top;
-		 border-style: solid;}
+div.topo * {vertical-align: top;
+			border-style: solid;
+			position: relative;}
 
 .logo {border-style: solid;
  	   position: relative;
- 	   border-width: 2px;}
+ 	   border-width: 1px;}
 
 a:hover {background-color: rgba(128, 128, 128, 0.300);}
 
-a {padding: 2px;}
+a {padding: 2px;
+   border: solid black 2px;
+   text-decoration: none;
+   text-align: center;
+   color: black;}
