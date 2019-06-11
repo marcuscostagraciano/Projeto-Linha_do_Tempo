@@ -1,10 +1,20 @@
-div.topo * {vertical-align: top;
+div.topo    {vertical-align: top;
 			border-style: solid;
-			position: relative;}
+			position: absolute;
+			width: 99%;
+		    height: 200px;}
 
-.logo {border-style: solid;
+div.topo h1 {text-decoration: underline;
+			 float: left;
+			 border-style: none;
+			 text-align: center;}
+
+#logo {border-style: solid;
  	   position: relative;
  	   border-width: 1px;}
+
+div.conta a {float: right;}
+div.conta tr td {display: inline;}
 
 a:hover {background-color: rgba(128, 128, 128, 0.300);}
 
