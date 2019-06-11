@@ -1,7 +1,9 @@
 div.topo    {vertical-align: top;
 			border-style: solid;
 			position: absolute;
-			width: 99%;
+			top: 0px;
+			right: 0px;
+			width: 99.5%;
 		    height: 200px;}
 
 div.topo h1 {text-decoration: underline;
@@ -11,10 +13,16 @@ div.topo h1 {text-decoration: underline;
 
 #logo {border-style: solid;
  	   position: relative;
- 	   border-width: 1px;}
+ 	   border-width: 2px;
+ 	   padding: 5px;
+ 	   width:125px;
+ 	   height:125px;}
 
-div.conta a {float: right;}
-div.conta tr td {display: inline;}
+.conta tr td {border: solid black 2px;
+			  text-align: center;
+			  display: inline-block;}
+
+.conta a {border-style: none;}
 
 a:hover {background-color: rgba(128, 128, 128, 0.300);}
 
@@ -23,3 +31,10 @@ a {padding: 2px;
    text-decoration: none;
    text-align: center;
    color: black;}
+
+div.lateral {position: absolute;
+			 border: solid black 2px;
+			 width: 20%;
+			 display: block;
+			 top: ;
+			 height: 100%;}
