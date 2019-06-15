@@ -1,28 +1,48 @@
 div.topo    {vertical-align: top;
 			border-style: solid;
 			position: absolute;
-			top: 0px;
-			right: 0px;
-			width: 99.5%;
-		    height: 200px;}
+			background: linear-gradient(to bottom right, #66ffff 0%, #ff99cc 98%);
+			top: 0%;
+			right: 0%;
+			left: 0%;
+		    height: 150px;}
 
 div.topo h1 {text-decoration: underline;
-			 float: left;
+			 position: absolute;
+			 top: -10px;
+			 left: 24.5%;
 			 border-style: none;
-			 text-align: center;}
+			 text-align: center;
+			 font-size: 315%;}
 
 #logo {border-style: solid;
  	   position: relative;
- 	   border-width: 2px;
- 	   padding: 5px;
- 	   width:125px;
- 	   height:125px;}
+	   border-width: 2px;
+	   left: -3px;
+ 	   padding: 0px;
+ 	   width:140px;
+	   height:148px;}
+
+#logo a {position: relative;
+		 border: none;
+		 border-left: black;
+		 display: block;
+		 width: 135px;
+		 height: 143px;}
+
+.conta {position: absolute;		
+		top: 18px;
+		left: 90%;}
+
+.conta a {border-style: none;		  
+		  display: block;
+		  padding: 15px;}
 
 .conta tr td {border: solid black 2px;
+			  background: linear-gradient(to bottom right, #ccffff 0%, #ffcccc 98%);
 			  text-align: center;
-			  display: inline-block;}
-
-.conta a {border-style: none;}
+			  display: inline-block;
+			  border-radius: 2px;}
 
 a:hover {background-color: rgba(128, 128, 128, 0.300);}
 
@@ -33,8 +53,35 @@ a {padding: 2px;
    color: black;}
 
 div.lateral {position: absolute;
+			 background: linear-gradient(to bottom right, #ccffff 0%, #ffcccc 98%);
 			 border: solid black 2px;
-			 width: 20%;
+			 width: 140px;
 			 display: block;
-			 top: ;
+			 top: 155px;
+			 left: 0px;
 			 height: 100%;}
+
+.acoeslaterais a{position: relative;
+	 			font-size: 25px;				
+				padding: 20px;				
+				text-align: center;
+				display: block;}
+
+.copyright {position: absolute;
+			font-size: 20px;
+			border: 1px solid black;
+			text-align: center;
+			align-self: auto;
+			margin-left: 4.5%;
+			margin-right: 5%;
+			margin-bottom: 5px; 
+			width: 90%;
+			bottom: 0px;}
+
+.corpo {position: absolute;
+		background-color: aqua;
+		left: 144px;
+		top: 156px;
+		padding: 0px;
+		height: 100%;
+		widows: 100%;}
