@@ -1,3 +1,6 @@
+body {right: 0px;
+      left: 0px;}
+
 div.topo    {vertical-align: top;
 			border-style: solid;
 			position: absolute;
@@ -79,9 +82,25 @@ div.lateral {position: absolute;
 			bottom: 0px;}
 
 .corpo {position: absolute;
-		background-color: aqua;
 		left: 144px;
 		top: 156px;
+		right: 0%;
 		padding: 0px;
-		height: 100%;
-		widows: 100%;}
+		height: 100%;}
+
+.pub {margin: 10px;}
+
+.pub#p1 {right: 0%;
+	     left: 0%;
+		 position: relative;
+		 border: 1px solid black;}
+
+.pub#p2 {right: 0%;
+	     left: 0%;
+		 position: relative;
+		 border: 1px solid black;}
+
+.pub#p3 {right: 0%;
+	     left: 0%;
+	     position: relative;
+		 border: 1px solid black;}
