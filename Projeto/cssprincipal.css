@@ -55,12 +55,13 @@ a {padding: 2px;
    text-align: center;
    color: black;}
 
-div.lateral {position: absolute;
+.lateral {position: absolute;
 			 background: linear-gradient(to bottom right, #ccffff 0%, #ffcccc 98%);
 			 border: solid black 2px;
 			 width: 140px;
 			 display: block;
 			 top: 155px;
+			 bottom: 0%;
 			 left: 0px;
 			 height: 100%;}
 
@@ -88,7 +89,13 @@ div.lateral {position: absolute;
 		padding: 0px;
 		height: 100%;}
 
-.pub {margin: 10px;}
+.pub {position: absolute;
+	  margin: 10px;
+	  padding: 0px;}
+
+.pub img {position: relative;
+		  padding-left: 80%;
+		  padding-bottom: 10px}
 
 .pub#p1 {right: 0%;
 	     left: 0%;
