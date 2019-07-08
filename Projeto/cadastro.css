@@ -3,4 +3,39 @@ h1 {text-decoration: underline;}
 .corpo {display: inline;
 		padding-left: 20px;}
 
-input:focus {border: solid black 2px;}
+input[type=text] {width: 200px;}
+input[type=email] {width: 200px;}
+input[type=password] {width: 200px;}
+
+input[type=text]:focus {animation-name: mudarinput;
+				animation-duration: 4s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;}
+
+input[type=email]:focus {animation-name: mudarinput;
+				animation-duration: 4s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;}
+
+input[type=password]:focus {animation-name: mudarinput;
+				animation-duration: 4s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;}
+
+input[type=date]:focus {animation-name: mudarinput;
+				animation-duration: 4s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;}
+						
+
+@keyframes mudarinput{	
+	0% {}
+	12.5% {background-color: lavender;}
+	25% {background-color: rgb(204, 226, 240);}
+	37.5% {background-color: whitesmoke;}
+	50% {border: solid black 5px; background-color: whitesmoke;}
+	62.5% {background-color: whitesmoke;}
+	75% {background-color: rgb(204, 226, 240);}
+	87.5% {background-color: lavender;}
+	100% {}
+}
