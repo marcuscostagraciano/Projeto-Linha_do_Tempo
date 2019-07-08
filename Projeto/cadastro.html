@@ -52,19 +52,24 @@
 
 <div class="corpo">
 
-    <h1>Cadastro</h1>
+    <h1>Cadastro:</h1>
 
-<form method="post">
+<form method="post" style="position: absolute;">
     
-<input type="text" name="nomecompleto" placeholder="Nome" max="255"><br>
-<input type="email" name="email" placeholder="Email"><br>
-<input type="password" name="senha" placeholder="Senha" min="6"><br>
-<input type="password" name="senhaconfirmacao" placeholder="Confirme sua Senha" min="6">
+Nome:<br>    
+<input type="text" name="nome" placeholder="Nome" max="255" required><br><br>
 
-<div class="calendario">
-    <p>Selecione sua data de <br> nascimento abaixo:</p>
-    <input type="date" name="datanascimento">
-</div>
+Email:<br> 
+<input type="email" name="email" placeholder="Email" required><br><br>
+
+Senha:<br> 
+<input type="password" name="senha" placeholder="Senha" min="6" required><br><br>
+
+Confirmação da senha:<br> 
+<input type="password" name="senhaconfirmacao" placeholder="Confirme sua Senha" min="6" required><br><br>
+
+Data de nascimento:<br>
+<input type="date" name="datanascimento" required><br><br>
 
 <input type="submit">
 </form>
