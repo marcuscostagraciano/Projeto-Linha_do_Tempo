@@ -20,20 +20,14 @@ input[type=email]:focus {animation-name: mudarinput;
 input[type=password]:focus {animation-name: mudarinput;
 				animation-duration: 4s;
 				animation-iteration-count: 1;
-				animation-fill-mode: forwards;}
-
-input[type=date]:focus {animation-name: mudarinput;
-				animation-duration: 4s;
-				animation-iteration-count: 1;
-				animation-fill-mode: forwards;}
-						
+				animation-fill-mode: forwards;}						
 
 @keyframes mudarinput{	
 	0% {}
 	12.5% {background-color: lavender;}
 	25% {background-color: rgb(204, 226, 240);}
 	37.5% {background-color: whitesmoke;}
-	50% {border: solid black 5px; background-color: whitesmoke;}
+	50% {border: solid black 1px; background-color: whitesmoke;}
 	62.5% {background-color: whitesmoke;}
 	75% {background-color: rgb(204, 226, 240);}
 	87.5% {background-color: lavender;}
